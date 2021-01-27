@@ -12,6 +12,7 @@ class UI {
     showDashboard() {
         document.querySelector("#login-area").style.display = "none";
         document.querySelector("#diposit-area").style.display = "block";
+        document.querySelector("#title").innerHTML = "Dashboard";
     }
 
     updateDisplay(displayID, inputID, sign) {
